@@ -67,7 +67,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git gitfast)
 plugins=(ng)
 plugins=(npm)
 
@@ -101,21 +101,53 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ngc="ng generate component"
-alias gpl="git pull"
+
+# git
+alias gconf="git config"
+alias gst="git status"
+alias glg="git log"
+alias grlg="git relog"
+
+# unmodify gco filename
+alias gco="git checkout"
+alias gcob="git checkout -b" # new branch
+alias gcpk="git cherry-pick"
+
+# stage
+alias gad="git add"
+alias gada="git add ."
+alias guad="git reset HEAD" # unstage [filename]
+
+# stash
+alias gsh="git stash"
+alias gshl="git stash list"
+alias gshc="git stash clear"
+alias gsha="git stash apply"
+
+# commit
 alias gcm="git commit -m"
+
+# uncommit 
+# git reset --hard commitid
+
+# sync remote
+alias gpl="git pull" # fetch and merge
 alias gps="git push"
 alias gpso="git push --set-upstream origin"
-alias gst="git status"
-alias gco="git checkout"
-alias gcob="git checkout -b"
+
+# merge
+alias grb="git rebase"
+alias grbc="git rebase --continue"
+alias grbs="git rebase --skip"
+alias grba="git rebase --abort"
+
+# clear branch
 alias gbd="git branch -d"
 alias gbD="git branch -D"
+alias grmp="git remote prune origin"
+alias grms="git remote show origin"
+# 清理 master 以外的分支
+# git branch | grep -v 'master' | xargs git branch -D
 
-#alias for cnpm
-alias cnpm="npm --registry=https://registry.npm.taobao.org \
-  --cache=$HOME/.npm/.cache/cnpm \
-  --disturl=https://npm.taobao.org/dist \
-  --userconfig=$HOME/.cnpmrc"
-  
+# dotfiles
 alias dotfiles='/usr/bin/git --git-dir=/Users/mac/.dotfiles/ --work-tree=/Users/mac'
