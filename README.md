@@ -33,3 +33,11 @@ git clone --bare https://github.com/USERNAME/dotfiles.git $HOME/.dotfiles
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 dotfiles checkout
 ```
+
+## Apps
+
+### Rime
+
+```bash
+/Library/Input\ Methods/Squirrel.app/Contents/MacOS/rime-install
+```
