@@ -38,6 +38,10 @@ dotfiles checkout
 
 ### Rime
 
+下载管理工具
+
 ```bash
 /Library/Input\ Methods/Squirrel.app/Contents/MacOS/rime-install
 ```
+
+- Fn+Shift+delete 去掉错误的词

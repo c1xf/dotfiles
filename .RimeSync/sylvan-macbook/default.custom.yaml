@@ -2,5 +2,10 @@ patch:
     "menu/page_size": 9
     "switcher/hotkeys":
         - "F4"
+    ascii_composer/good_old_caps_lock: true
     ascii_composer/switch_key:
-        Shift_L: commit_code
+        Caps_Lock: commit_code
+        Shift_L: noop
+        Shift_R: noop
+        Control_L: commit_code
+        Control_R: commit_code
