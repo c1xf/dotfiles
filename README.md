@@ -42,6 +42,13 @@ dotfiles checkout
 
 ```bash
 /Library/Input\ Methods/Squirrel.app/Contents/MacOS/rime-install
+.../rime_dict_manager
+```
+
+错误日志
+
+```bash
+$TMPDIR/rime.Squirrel.
 ```
 
 - Fn+Shift+delete 去掉错误的词
