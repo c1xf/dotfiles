@@ -1,5 +1,5 @@
 patch:
-    "menu/page_size": 9
+    "menu/page_size": 5
     "switcher/hotkeys":
         - "F4"
     ascii_composer/good_old_caps_lock: true

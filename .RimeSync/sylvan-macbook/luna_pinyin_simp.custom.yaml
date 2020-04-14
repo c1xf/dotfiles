@@ -43,9 +43,21 @@ patch:
     option_name: emoji_suggestion
     tips: all
 
+  style/color_scheme: azure
+  style/horizontal: true
+  style/font_point: 18
+  style/inline_preedit: false   # 非內嵌編碼行
+  
 
-# __patch:
-# # Rx: emoji:customize:schema=luna_pinyin_simp {
-#   - patch/+:
-#       __include: emoji_suggestion:/patch
-# # }
+# https://www.barretlee.com/blog/2015/11/20/new-input-methed-rime/
+
+#   碧水 - aqua
+#   青天 - azure
+#   明月 - luna
+#   墨池 - ink
+#   孤寺 - lost_temple
+#   暗堂 - dark_temple
+#   星际我争霸 - starcraft
+#   谷歌 - google
+#   晒经石 - solarized_rock
+#   简约白 - clean_white
