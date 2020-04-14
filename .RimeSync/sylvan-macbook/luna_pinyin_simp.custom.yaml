@@ -46,7 +46,7 @@ patch:
   style/color_scheme: azure
   style/horizontal: true
   style/font_point: 18
-  style/inline_preedit: false   # 非內嵌編碼行
+  # style/inline_preedit: false   # 非內嵌編碼行
   
 
 # https://www.barretlee.com/blog/2015/11/20/new-input-methed-rime/
