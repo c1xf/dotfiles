@@ -38,6 +38,11 @@ dotfiles checkout
 
 ### Rime
 
+中文输入，英文输入还是用 mac 自带输入法
+
+- 修改 app_options
+- 修改 `switches/@0/reset: 0` `switches/@0/states: [中文]`
+
 下载管理工具
 
 ```bash
@@ -51,4 +56,4 @@ dotfiles checkout
 $TMPDIR/rime.Squirrel.
 ```
 
-- Fn+Shift+delete 去掉错误的词
+- Fn + Shift + delete 去掉错误的词
