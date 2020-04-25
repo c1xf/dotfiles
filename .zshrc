@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/mac/.oh-my-zsh"
+export ZSH="/Users/apple/.oh-my-zsh"
 
 
 export NVM_DIR="$HOME/.nvm"
@@ -150,4 +150,4 @@ alias grms="git remote show origin"
 # git branch | grep -v 'master' | xargs git branch -D
 
 # dotfiles
-alias dotfiles='/usr/bin/git --git-dir=/Users/mac/.dotfiles/ --work-tree=/Users/mac'
+alias dotfiles='/usr/bin/git --git-dir=/Users/apple/.dotfiles/ --work-tree=/Users/apple'

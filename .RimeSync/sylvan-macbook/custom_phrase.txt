@@ -103,8 +103,3 @@ git branch -d 	gbd
 git branch -D 	gbD
 git remote prune origin 	grmp
 git remote show origin 	grms
-
-npm run hmr	npmh
-http://localhost:4100	wlqt
-http://localhost:4200	wlht
-http://localhost:4300	wlpy
