@@ -103,26 +103,23 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # git
-alias gconf="git config"
+
+alias gcf="git config"
 alias gst="git status"
 alias glg="git log"
 alias grlg="git relog"
 
-# unmodify gco filename
+# unmodify gco [filename]
 alias gco="git checkout"
 alias gcob="git checkout -b" # new branch
-alias gcpk="git cherry-pick"
 
 # stage
 alias gad="git add"
-alias gada="git add ."
-alias guad="git reset HEAD" # unstage [filename]
+# unstage [filename]
+# git reset HEAD
 
 # stash
 alias gsh="git stash"
-alias gshl="git stash list"
-alias gshc="git stash clear"
-alias gsha="git stash apply"
 
 # commit
 alias gcm="git commit -m"
@@ -137,9 +134,6 @@ alias gpso="git push --set-upstream origin"
 
 # merge
 alias grb="git rebase"
-alias grbc="git rebase --continue"
-alias grbs="git rebase --skip"
-alias grba="git rebase --abort"
 
 # clear branch
 alias gbd="git branch -d"
@@ -151,3 +145,11 @@ alias grms="git remote show origin"
 
 # dotfiles
 alias dotfiles='/usr/bin/git --git-dir=/Users/apple/.dotfiles/ --work-tree=/Users/apple'
+
+# npm 
+alias nr="npm run"
+alias ni="npm install"
+
+# yarn
+alias ys="yarn start"
+alias ya="yarn add"

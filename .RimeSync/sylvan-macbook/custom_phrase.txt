@@ -69,37 +69,20 @@ X-Ray	xray
 Xbox One	xbox
 Youku	youku
 YouTube	youtube
-	apple
- MUSIC	applemusic
- PAY	applepay
- tv 4K	appletv
- WATCH	applewatch
 
-# git
+# git 助记
 
-git config 	gconf
-git status 	gst
-git log 	glg
-git reflog 	grlg
-git checkout 	gco
-git checkout -b	gcob
-git cherry-pick 	gcpk
-git add 	gad
-git add . 	gada
-git reset HEAD 	guad
-git stash 	gsh
-git stash list 	gshl
-git stash clear 	gshc
-git stash apply 	gsha
-git commit -m 	gcm
-git pull 	gpl
-git push 	gps
-git push --set-upstream origin 	gpso
-git rebase 	grb
-git rebase --continue 	grbc
-git rebase --skip 	grbs
-git rebase --abort 	grba
-git branch -d 	gbd
-git branch -D 	gbD
-git remote prune origin 	grmp
-git remote show origin 	grms
+git reset HEAD 	gituad
+git cherry-pick 	gitpick
+git branch | grep -v 'master' | xargs git branch -D	gitclear
+git remote prune origin 	gitprune
+git remote show origin 	gitremote
+
+# 生活
+
+陈晓峰	cxf
+刘卓君	lzj
+18874030690	myd
+sylvan@foxmail.com	mye
+he123456	mym
+a1111111	mymm
