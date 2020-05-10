@@ -80,9 +80,9 @@ git remote show origin 	gitremote
 
 # 生活
 
-陈晓峰	cxf
-刘卓君	lzj
-18874030690	myd
-sylvan@foxmail.com	mye
-he123456	mym
-a1111111	mymm
+陈晓峰	myn
+刘卓君	myw
+18874030690	mym
+ssylvan@foxmail.com	mye
+he123456	myp
+a1111111	mypp
