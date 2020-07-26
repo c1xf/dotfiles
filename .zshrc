@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/apple/.oh-my-zsh"
+export ZSH="/Users/$USER/.oh-my-zsh"
 
 
 export NVM_DIR="$HOME/.nvm"
@@ -144,7 +144,7 @@ alias grms="git remote show origin"
 # git branch | grep -v 'master' | xargs git branch -D
 
 # dotfiles
-alias dotfiles='/usr/bin/git --git-dir=/Users/apple/.dotfiles/ --work-tree=/Users/apple'
+alias dotfiles='/usr/bin/git --git-dir=/Users/$USER/.dotfiles/ --work-tree=/Users/$USER'
 
 # npm 
 alias nr="npm run"
@@ -153,3 +153,7 @@ alias ni="npm install"
 # yarn
 alias ys="yarn start"
 alias ya="yarn add"
+
+# proxy list
+alias proxy='export all_proxy=socks5://127.0.0.1:1086'
+alias unproxy='unset all_proxy'
