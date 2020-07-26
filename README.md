@@ -2,8 +2,6 @@
 
 > 原文 [How to manage your dotfiles with git](https://medium.com/toutsbrasil/how-to-manage-your-dotfiles-with-git-f7aeed8adf8b)
 
-**注意**：不同电脑，对应的个人目录可能会不同
-
 ## 初始化
 
 ```bash
@@ -27,9 +25,8 @@ dotfiles push
 
 ## 拉取
 
-
 ```bash
-git clone --bare https://github.com/USERNAME/dotfiles.git $HOME/.dotfiles
+git clone --bare repository(https://github.com/$xxx/dotfiles.git) $HOME/.dotfiles
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 dotfiles checkout
 ```
