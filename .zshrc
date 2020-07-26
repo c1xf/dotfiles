@@ -144,7 +144,7 @@ alias grms="git remote show origin"
 # git branch | grep -v 'master' | xargs git branch -D
 
 # dotfiles
-alias dotfiles='/usr/bin/git --git-dir=/Users/$USER/.dotfiles/ --work-tree=/Users/$USER'
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 # npm 
 alias nr="npm run"
