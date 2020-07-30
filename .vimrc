@@ -22,6 +22,4 @@ set spell spelllang=en_us
 map <Space> <Leader>
 noremap <Leader>y "*y
 noremap <Leader>p "*p
-noremap <Leader>Y "+y
-noremap <Leader>P "+p
-
+noremap <Leader>d "*d
