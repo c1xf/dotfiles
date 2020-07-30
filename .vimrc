@@ -19,3 +19,9 @@ set incsearch
 set spell spelllang=en_us
 
 " map noremap d "_d
+map <Space> <Leader>
+noremap <Leader>y "*y
+noremap <Leader>p "*p
+noremap <Leader>Y "+y
+noremap <Leader>P "+p
+
