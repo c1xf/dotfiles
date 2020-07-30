@@ -17,6 +17,5 @@ set incsearch
 
 " edit
 set spell spelllang=en_us
-set clipboard=unnamedplus
 
 " map noremap d "_d
