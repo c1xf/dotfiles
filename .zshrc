@@ -107,7 +107,6 @@ source $ZSH/oh-my-zsh.sh
 alias gcf="git config"
 alias gst="git status"
 alias glg="git log"
-alias grlg="git relog"
 
 # unmodify gco [filename]
 alias gco="git checkout"
@@ -115,14 +114,17 @@ alias gcob="git checkout -b" # new branch
 
 # stage
 alias gad="git add"
+alias guad="git reset"
 # unstage [filename]
 # git reset HEAD
 
 # stash
 alias gsh="git stash"
+alias gshm="git stash -m"
 
 # commit
 alias gcm="git commit -m"
+alias gucl="git reset --soft HEAD~1"
 
 # uncommit 
 # git reset --hard commitid
@@ -157,3 +159,10 @@ alias ya="yarn add"
 # proxy list
 alias proxy='export all_proxy=socks5://127.0.0.1:1086'
 alias unproxy='unset all_proxy'
+# export PATH="/usr/local/opt/openjdk/bin:$PATH"
+# export CPPFLAGS="-I/usr/local/opt/openjdk/include"
+export NODE_OPTIONS=--max_old_space_size=8192
+# k8s
+alias k8suc='kubectl config use-context'
+
+export CORDOVA_ANDROID_GRADLE_DISTRIBUTION_URL=https://services.gradle.org/distributions/gradle-6.1.1-all.zip
