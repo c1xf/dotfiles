@@ -70,7 +70,8 @@ ZSH_THEME="robbyrussell"
 plugins=(git gitfast)
 plugins=(ng)
 plugins=(npm)
-
+# https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh
+plugins=(zsh-autosuggestions)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -114,20 +115,17 @@ alias gcob="git checkout -b" # new branch
 
 # stage
 alias gad="git add"
+# undo stage [filename]
 alias guad="git reset"
-# unstage [filename]
-# git reset HEAD
 
 # stash
 alias gsh="git stash"
-alias gshm="git stash -m"
+alias gshm="git stash -u -m"
 
 # commit
 alias gcm="git commit -m"
+# undo commit 
 alias gucl="git reset --soft HEAD~1"
-
-# uncommit 
-# git reset --hard commitid
 
 # sync remote
 alias gpl="git pull" # fetch and merge
@@ -166,3 +164,4 @@ export NODE_OPTIONS=--max_old_space_size=8192
 alias k8suc='kubectl config use-context'
 
 export CORDOVA_ANDROID_GRADLE_DISTRIBUTION_URL=https://services.gradle.org/distributions/gradle-6.1.1-all.zip
+
