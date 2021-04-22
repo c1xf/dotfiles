@@ -14,7 +14,6 @@ export NVM_DIR="$HOME/.nvm"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="robbyrussell"
-
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
@@ -70,8 +69,12 @@ ZSH_THEME="robbyrussell"
 plugins=(git gitfast)
 plugins=(ng)
 plugins=(npm)
-# https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh
-plugins=(zsh-autosuggestions)
+# git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+# git clone git://github.com/zsh-users/zsh-syntax-highlighting $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+plugins=(
+	zsh-syntax-highlighting
+	zsh-autosuggestions
+)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
