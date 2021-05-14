@@ -118,6 +118,7 @@ alias gcob="git checkout -b" # new branch
 
 # stage
 alias gad="git add"
+alias gad.="git add ."
 # undo stage [filename]
 alias guad="git reset"
 
@@ -168,3 +169,4 @@ alias k8suc='kubectl config use-context'
 
 export CORDOVA_ANDROID_GRADLE_DISTRIBUTION_URL=https://services.gradle.org/distributions/gradle-6.1.1-all.zip
 
+alias zshfile="code ~/.zshrc"
