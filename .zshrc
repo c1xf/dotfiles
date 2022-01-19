@@ -124,6 +124,7 @@ alias guad="git reset"
 
 # stash
 alias gsh="git stash"
+alias gush="git reset --merge"
 alias gshm="git stash -u -m"
 
 # commit
@@ -159,7 +160,8 @@ alias ys="yarn start"
 alias ya="yarn add"
 
 # proxy list
-alias proxy='export all_proxy=socks5://127.0.0.1:1086'
+alias proxy='export all_proxy=socks5://127.0.0.1:7890'
+# alias proxy='export all_proxy=socks5://127.0.0.1:1086'
 alias unproxy='unset all_proxy'
 # export PATH="/usr/local/opt/openjdk/bin:$PATH"
 # export CPPFLAGS="-I/usr/local/opt/openjdk/include"
