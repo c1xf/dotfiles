@@ -1,7 +1,7 @@
 # Rime user dictionary
 #@/db_name	luna_pinyin.userdb
 #@/db_type	userdb
-#@/rime_version	1.4.0
+#@/rime_version	1.5.3
 #@/tick	1903
 #@/user_id	sylvan-macbook
 a 	啊	c=5 d=1.15264 t=1903
